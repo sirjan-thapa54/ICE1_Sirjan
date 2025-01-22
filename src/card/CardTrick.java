@@ -3,7 +3,7 @@ package card;
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and searches for a hard-coded lucky card in the magic hand.
- * @author poudyasa
+ * @author thapasir
  * @modifier Sirjan Thapa, 991755708
  */
 public class CardTrick {
@@ -22,7 +22,7 @@ public class CardTrick {
 
         // Add a luckyCard with a predefined value and suit
         Card luckyCard = new Card();
-        luckyCard.setValue(7); // For example, 7
+        luckyCard.setValue(6); // For example, 7
         luckyCard.setSuit("Hearts"); // For example, Hearts
 
         // Display the magic hand
