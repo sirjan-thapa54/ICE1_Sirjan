@@ -49,6 +49,7 @@ public class CardTrick {
                 break;
             }
         }
+        Card luckyCard = new Card(7, "Hearts");
 
         // Report the result
         if (found) {
