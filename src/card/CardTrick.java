@@ -1,11 +1,6 @@
 package card;
 
-/**
- * A class that fills a magic hand of 7 cards with random Card Objects
- * and searches for a hard-coded lucky card in the magic hand.
- * @author thapasir
- * @modifier Sirjan Thapa, 991755708
- */
+
 public class CardTrick {
 
     public static void main(String[] args) {
