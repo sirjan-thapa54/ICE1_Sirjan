@@ -20,12 +20,12 @@ public class CardTrick {
             magicHand[i] = c;
         }
 
-        // Add a luckyCard with a predefined value and suit
+     
         Card luckyCard = new Card();
-        luckyCard.setValue(6); // For example, 7
-        luckyCard.setSuit("Hearts"); // For example, Hearts
+        luckyCard.setValue(6); 
+        luckyCard.setSuit("Hearts");
 
-        // Display the magic hand
+      
         System.out.println("\nMagic Hand:");
         for (Card c : magicHand) {
             System.out.println("Card: " + c.getValue() + " of " + c.getSuit());
