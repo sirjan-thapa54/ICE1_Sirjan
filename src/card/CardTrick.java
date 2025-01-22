@@ -41,10 +41,6 @@ public class CardTrick {
         }
 
         // Report the result for the lucky card
-        if (luckyFound) {
-            System.out.println("\nCongratulations! The lucky card (" + luckyCard.getValue() + " of " + luckyCard.getSuit() + ") is in the magic hand.");
-        } else {
-            System.out.println("\nSorry, the lucky card (" + luckyCard.getValue() + " of " + luckyCard.getSuit() + ") is not in the magic hand.");
-        }
+        
     }
 }
