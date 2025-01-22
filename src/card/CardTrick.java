@@ -14,15 +14,15 @@ public class CardTrick {
         
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
-            c.setValue((int) (Math.random() * 13) + 1); // Random value between 1 and 13
-            c.setSuit(Card.SUITS[(int) (Math.random() * 4)]); // Random suit
+            c.setValue((int) (Math.random() * 13) + 1); 
+            c.setSuit(Card.SUITS[(int) (Math.random() * 4)]); 
             magicHand[i] = c;
         }
 
-         // Add a luckyCard with a predefined value and suit
+        
         Card luckyCard = new Card();
-        luckyCard.setValue(7); // For example, 7
-        luckyCard.setSuit("Hearts"); // For example, Hearts
+        luckyCard.setValue(7); 
+        luckyCard.setSuit("Hearts"); 
 
       
         System.out.println("\nMagic Hand:");
