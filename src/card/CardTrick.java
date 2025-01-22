@@ -12,7 +12,6 @@ public class CardTrick {
        
         Card[] magicHand = new Card[7];
         
-        // Fill the array with random Card objects
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
             c.setValue((int) (Math.random() * 13) + 1); // Random value between 1 and 13
