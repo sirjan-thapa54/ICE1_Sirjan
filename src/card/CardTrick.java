@@ -9,7 +9,7 @@ package card;
 public class CardTrick {
 
     public static void main(String[] args) {
-        // Create an array to hold the magic hand of 7 cards
+       
         Card[] magicHand = new Card[7];
         
         // Fill the array with random Card objects
