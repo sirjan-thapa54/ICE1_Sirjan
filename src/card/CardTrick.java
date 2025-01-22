@@ -20,9 +20,6 @@ public class CardTrick {
         }
 
      
-        Card luckyCard = new Card();
-        luckyCard.setValue(6); 
-        luckyCard.setSuit("Hearts");
 
       
         System.out.println("\nMagic Hand:");
@@ -30,7 +27,7 @@ public class CardTrick {
             System.out.println("Card: " + c.getValue() + " of " + c.getSuit());
         }
 
-        // Search for the lucky card in the magic hand
+       
         boolean luckyFound = false;
         
         for (Card c : magicHand) {
@@ -39,7 +36,7 @@ public class CardTrick {
             }
         }
 
-        // Report the result for the lucky card
+       
         if (luckyFound) {
             System.out.println("\nCongratulations! The lucky card (" + luckyCard.getValue() + " of " + luckyCard.getSuit() + ") is in the magic hand.");
         } else {
